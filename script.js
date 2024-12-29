@@ -37,10 +37,10 @@ document.addEventListener('DOMContentLoaded', () => {
     leftMenuToggle.addEventListener('click', () => {
         if (leftMenuContent.style.display === 'none') {
             leftMenuContent.style.display = 'block';
-            leftMenuToggle.textContent = 'Collapse';
+            leftMenuToggle.textContent = 'Toggle';
         } else {
             leftMenuContent.style.display = 'none';
-            leftMenuToggle.textContent = 'Expand';
+            leftMenuToggle.textContent = 'Toggle';
         }
     });
 
