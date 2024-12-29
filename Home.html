@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sticky Navbar with Collapsible Sidebar</title>
+    <link rel="stylesheet" href="styling.css" />
+  </head>
+  <body>
+        <nav>
+         <h1>Navbar</h1>
+         <ul>
+           <li><a href="#home">Home</a></li>
+           <li><a href="#about">About</a></li>
+           <li><a href="#contact">Contact</a></li>
+           <li><button class="toggle-sidebar">Hide</button></li>
+         </ul>
+       </nav>
+       <div class="sections">
+         <div class="left-menu">
+           <div class="menu-header">
+             <h1 class="left-header">Left Menu</h1>
+             <button class="toggle-menu">Toggle</button>
+           </div>
+           <hr />
+           <div class="menu-content">
+             <p>This is the collapsible left menu.</p>
+           </div>
+         </div>
+         <div class="main-content">
+           <h1 class="center-header">Center Content</h1>
+           <hr />
+         </div>
+         <div class="right-menu">
+           <div class="menu-header">
+             <h1 class="right-header">Right Menu</h1>
+           </div>
+           <hr />
+           <div class="menu-content">
+             <p>This is the right side panel.</p>
+           </div>
+         </div>
+       </div>
+       <hr/>
+       <footer>
+         <h4>© 2024 Footer</h4>
+         <ul>
+           <li><a href="#github"><img src="github.png" class="footicon"></img></a></li>
+           <li><a href="#linkedin"><img src="linkedin.png" class="footicon"></img></a></li>
+         </ul>
+       </footer>
+       </body>
+    <script src="script.js"></script>
+  </body>
+</html>
