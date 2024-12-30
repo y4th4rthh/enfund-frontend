@@ -64,6 +64,6 @@ handlePageScaling();
 let resizeTimeout;
 window.addEventListener('resize', () => {
     clearTimeout(resizeTimeout);
-    resizeTimeout = setTimeout(handlePageScaling, 250); // Debounce resize events
+    resizeTimeout = setTimeout(handlePageScaling, 250); 
 });
 });
